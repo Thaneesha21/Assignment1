@@ -1,0 +1,253 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled6.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOOhZDc83pp/4KUMfV4kLeZ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Thaneesha21/Assignment1/blob/master/Assignment%203\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "vE1AjFjDqqtv",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "Question 1"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "P5Tz045lqPVg",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "70eeb2c6-b8af-4151-d360-251534f7d09a"
+      },
+      "source": [
+        "a=20\n",
+        "b=10\n",
+        "if a==b:\n",
+        "  print(\"equal\")\n",
+        "else:\n",
+        "  print(\"unequal\")  "
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "unequal\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "ws162XfCqt2H",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "Question 2"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "k-7fJ-Ulud03",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "ef99a57f-9275-40c9-ce8a-18d2c54bc6c8"
+      },
+      "source": [
+        "a=5\n",
+        "b=5\n",
+        "c=10\n",
+        "if a==b==c:\n",
+        "  print(\"All are equal\")\n",
+        "elif a==b!=c:\n",
+        "  print(\"Any two are equal\")\n",
+        "else:\n",
+        "  print(\"All are unequal\")  "
+      ],
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Any two are equal\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Uw_tNnUJwO9Y",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "Question 3"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "cxYXTAC9w31z",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 50
+        },
+        "outputId": "a30fd578-0ceb-45bc-b542-bac823c94635"
+      },
+      "source": [
+        "a=2\n",
+        "b=3\n",
+        "res=a+b\n",
+        "print('res is:')\n",
+        "if res > 5:\n",
+        "  print(\"result is greather than 5:\",res)\n",
+        "elif res < 5:\n",
+        "  print(\"result is lesser than 5:\",res)\n",
+        "else:\n",
+        "  print(\"result is equal to 5:\",res)\n",
+        "    \n"
+      ],
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "res is:\n",
+            "result is equal to 5: 5\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "m90JPDxry_df",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "Question 4"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "v-skdWDhwWyB",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 50
+        },
+        "outputId": "9d4e5d81-f533-4b4b-8fef-0dfd27adb989"
+      },
+      "source": [
+        "a=int(input('enter value of a:'))\n",
+        "if a > 35:\n",
+        "  print(\"your number is greather than 35\")\n",
+        "else:\n",
+        "  print(\"your number is less than 35\")"
+      ],
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "enter value of a:95\n",
+            "your number is greather than 35\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "qH899TCt1NJN",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "Question 5"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "L2Dgu-j-8BXO",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "32aac91c-7e6b-42c7-b855-5098c039bd52"
+      },
+      "source": [
+        "def max_of_two( x, y ):\n",
+        "  if x > y:\n",
+        "    return x\n",
+        "    return y\n",
+        "def max_of_three( x, y, z ):\n",
+        "  return max_of_two( x, max_of_two( y, z) )\n",
+        "print(max_of_three(3, 6, -5))  \n"
+      ],
+      "execution_count": 31,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "None\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
